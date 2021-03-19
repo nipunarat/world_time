@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ChooseLocation extends StatefulWidget {
@@ -6,6 +7,9 @@ class ChooseLocation extends StatefulWidget {
 }
 
 class _ChooseLocationState extends State<ChooseLocation> {
+
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +20,6 @@ class _ChooseLocationState extends State<ChooseLocation> {
         centerTitle: true,
         elevation: 0,
       ),
-      body: Text('choose location screen'),
     );
   }
 }
