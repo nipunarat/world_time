@@ -1,6 +1,6 @@
 # world_time
 
-A new Flutter application.
+A Flutter application which shows current time time of selected countries.
 
 ## Getting Started
 
